@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose Your Template</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <p>Select a template to customize your own resume or bio-data.</p>
+    </header>
+    
+    <section class="templates">
+        <h2>Resume Templates</h2>
+        <div class="template-list">
+            <div class="template">
+               
+                <h3>Resume Template 1</h3>
+                <a href="templates/resume-template1.html" target="_blank">Preview</a>
+                <button onclick="editTemplate('templates/resume-template1')">Edit</button>
+            </div>
+            <div class="template">
+                <h3>Resume Template 2</h3>
+                <a href="templates/resume-template2.html" target="_blank">Preview</a>
+                <button onclick="editTemplate('templates/resume-template2')">Edit</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="templates">
+        <h2>Bio-data Templates</h2>
+        <div class="template-list">
+            <div class="template">
+                <h3>Bio-data Template 1</h3>
+                <a href="templates/biodata-template1.html" target="_blank">Preview</a>
+                <button onclick="editTemplate('templates/biodata-template1')">Edit</button>
+            </div>
+            <div class="template">
+                <h3>Bio-data Template 2</h3>
+                <a href="templates/biodata-template2.html" target="_blank">Preview</a>
+                <button onclick="editTemplate('templates/biodata-template2')">Edit</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>
